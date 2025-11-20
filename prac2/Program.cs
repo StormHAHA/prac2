@@ -149,7 +149,7 @@ namespace PeopleApp
         public override string ToString() =>
             base.ToString() + $", Университет: {University}, Курс: {YearOfStudy}";
 
-        // --- 🧩 Деконструктор ---
+       
         public void Deconstruct(out string name, out int age, out double height, out double weight, out string university, out int year)
         {
             base.Deconstruct(out name, out age, out height, out weight);
